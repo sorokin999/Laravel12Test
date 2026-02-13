@@ -1,5 +1,4 @@
-@extends('app')
-    @section('content')
+    <?php $__env->startSection('content'); ?>
 
     <div class="breadcrumb">
         <div class="container">
@@ -266,7 +265,7 @@
             </div>
         </div>
     </footer>
-    @endsection
+    <?php $__env->stopSection(); ?>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Элементы DOM
@@ -288,3 +287,5 @@
                 { id: 1, name: 'Ноутбук ASUS ROG Strix G15', price: 89990, quantity: 1, oldPrice: 99990 },
                 { id: 2, name: 'Наушники Sony WH-1000XM5', price: 29990, quantity: 2, oldPrice: null },
                 { id: 3, name: 'Чехол для iPhone 15 Pro', price: 2990, quantity:
+
+<?php echo $__env->make('app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH /Users/sorokin/Documents/Laravel12Test/resources/views/website_section/cart.blade.php ENDPATH**/ ?>

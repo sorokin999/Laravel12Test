@@ -1,5 +1,4 @@
-@extends('app')
-@section('content')
+<?php $__env->startSection('content'); ?>
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
@@ -185,5 +184,7 @@
             </div>
         </div>
     </section>
-@endsection
+<?php $__env->stopSection(); ?>
 
+
+<?php echo $__env->make('app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH /Users/sorokin/Documents/Laravel12Test/resources/views/website_section/home.blade.php ENDPATH**/ ?>
