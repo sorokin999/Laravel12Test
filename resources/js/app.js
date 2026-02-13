@@ -1,5 +1,5 @@
 // Импортируем общие зависимости
-import 'bootstrap'; // если используете
+import 'resources/js/bootstrap.js'; // если используете
 import axios from 'axios';
 
 // Импортируем модули страниц
