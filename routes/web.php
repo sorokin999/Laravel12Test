@@ -4,9 +4,12 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 
 Route::get('/', function () {
-    return view('app');
+    return view('website_section.home');
 });
 
+Route::get('/cart',function(){
+    return view('website_section.cart');
+});
 /*
     Маршруты авторизации
 */
